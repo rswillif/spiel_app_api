@@ -12,7 +12,7 @@ class SpielsController < ApplicationController
 
   def favorite
     redis = Redis.new
-    redis.set(current_user.username, {name: params['name'].to_s, content: params['content'].to_s})
+    redis.set(params['username'], {name: params['name'].to_s, content: params['content'].to_s})
     render :show
   end
 
