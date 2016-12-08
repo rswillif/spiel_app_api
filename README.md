@@ -1,24 +1,12 @@
-# README
+# Technology
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Rails based API created to provide API and back end support for a pseudo-madlibs web application.
 
-Things you may want to cover:
+Things used in this project:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Rails
+* Ruby
+* ActiveRecord
+* PostgreSQL
+* Rspec
+* Heroku
